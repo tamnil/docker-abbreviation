@@ -1,6 +1,7 @@
 # docker / Docker-compose Abbreviation
 
 ```
+
 dk='docker'
 dkc='docker-compose'
 
@@ -16,9 +17,13 @@ dkeit='docker exec -it '
 dkr='docker run'
 dkrit='docker run -it '
 
+em cleaning
 dkspa='docker system prune -a '
+dkrm='docker rm '
 dkrma='docker rm $(docker ps -a -q)'
+dkrmi='docker rmi '
 dkrmia='docker rmi $(docker images -q)'
+
 ```
 
 ## Install:

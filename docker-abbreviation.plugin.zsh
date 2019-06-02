@@ -21,5 +21,7 @@ alias dkrit='docker run -it '
 
 # System cleaning
 alias dkspa='docker system prune -a '
+alias dkrm='docker rm '
 alias dkrma='docker rm $(docker ps -a -q)'
+alias dkrmi='docker rmi '
 alias dkrmia='docker rmi $(docker images -q)'
