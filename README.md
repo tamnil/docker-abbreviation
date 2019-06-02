@@ -1,4 +1,6 @@
-# docker / Docker-compose Abbreviation
+# ZSH docker / Docker-compose Abbreviation
+
+Tamnil Saito Junior 2019 <tamnil@gmail.com>
 
 ```
 
@@ -26,20 +28,26 @@ dkrmia='docker rmi $(docker images -q)'
 
 ```
 
+
+## Requirements:
+- ZSH
+- ohmyzsh (https://github.com/robbyrussell/oh-my-zsh)
+- docker
+- docker-compose
+
 ## Install:
 
-### Install docker and docker-compose
 
 ### Clone from github
 ```
     cd ~/.oh-my-zsh/custom/plugins
-    git clone https://github.com/tamnil/docker-abbreviation
+    git clone https://github.com/tamnil/zsh-docker-abbreviation
 ```
 ### Load the plugin ins .zshrc
 
 ~/.zshrc  : 
 
-    plugins=( [...] docker-abbreviation )
+    plugins=( [...] zsh-docker-abbreviation )
 
 
     Start a new ZSH session or reload the configuration:
