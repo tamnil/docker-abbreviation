@@ -43,14 +43,14 @@ dkrmia='docker rmi $(docker images -q)'
     cd ~/.oh-my-zsh/custom/plugins
     git clone https://github.com/tamnil/zsh-docker-abbreviation
 ```
-### Load the plugin ins .zshrc
+### Load the plugin in .zshrc
 
 ~/.zshrc  : 
 
     plugins=( [...] zsh-docker-abbreviation )
 
 
-    Start a new ZSH session or reload the configuration:
+Start a new ZSH session or reload the configuration:
 
 
 ```
