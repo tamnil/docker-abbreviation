@@ -23,11 +23,20 @@ dkrmia='docker rmi $(docker images -q)'
 
 ## Install:
 
+### Install docker and docker-compose
+
 ### Clone from github
 ```
     cd ~/.oh-my-zsh/custom/plugins
     git clone https://github.com/tamnil/docker-abbreviation
 ```
+### Load the plugin ins .zshrc
+
+~/.zshrc  : 
+
+    plugins=( [...] docker-abbreviation )
+
+
     Start a new ZSH session or reload the configuration:
 
 
