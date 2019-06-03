@@ -12,7 +12,7 @@ alias dkps='docker ps'
 alias dkps='docker ps'
 alias dkb='docker build'
 alias dkcu='docker-compose up $1'
-alias dkcub'docker-compose up $1 --build'
+alias dkcub='docker-compose up $1 --build'
 
 alias dke='docker exec'
 alias dkeit='docker exec -it '
